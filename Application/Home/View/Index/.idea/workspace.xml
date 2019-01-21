@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="63c73e1d-a6b6-4bf8-8b8f-586bcbdf0444" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/NAS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocketClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/contextMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._Support.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._appstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._bg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._bg_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._bg_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._bg_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._bolt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._control.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._data_monitor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._del.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._downloads.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._file_server_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._icon_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._jstree_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._jstree_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._maximize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._minmize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._network.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._paste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._plugin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._root.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._s.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._sound-forge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._storage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._storage1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._system_hd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._theme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._tree_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._updater.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/._users.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Support.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/appstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bolt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/control.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/data_monitor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/del.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/downloads.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fieldset_expand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/file_server_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ipfs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/jstree_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/jstree_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/maximize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/minmize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/network.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/paste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/plugin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/root.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/s.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sound-forge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/storage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/storage1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/system_hd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/theme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tree_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/updater.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/users.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app/diskManagement" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/js/app/diskManagement/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app/diskManagement/diskmanagement.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app/diskManagement/diskmanagement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app/fileStation/fileStation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app/ipfs" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/js/app/ipfs/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app/ipfs/ipfs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app/ipfs/ipfs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/js/jquery/._jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/public" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/js/public/boxMove.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/public/boxZoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/public/contextMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/public/createApplication.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/public/drag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/public/drag1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/public/html2canvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/public/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app/fileStation/fileStation.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app/fileStation/fileStation.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="NAS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="38" column="76" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#1;n#dl#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#1;n#dl#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#1;n#dl#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#3;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#3;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#1;n#dl#3;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#4;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#4;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#1;n#dl#4;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#5;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#5;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#1;n#dl#5;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#6;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#6;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#1;n#dl#6;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#9;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#10;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#10;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#11;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#11;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#12;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#12;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#3;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diskmanagement.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/app/diskManagement/diskmanagement.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="698">
+              <caret line="918" column="75" selection-start-line="918" selection-start-column="75" selection-end-line="918" selection-end-column="75" />
+              <folding>
+                <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#table#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#table#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#1;n#table#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#4;n#table#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="e#79530#91076#0" />
+                <element signature="n#style#0;n#div#0;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#1;n#dl#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#1;n#dl#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#1;n#dl#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#3;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#3;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#1;n#dl#3;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#4;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#4;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#1;n#dl#4;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#5;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#5;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#1;n#dl#5;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#6;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#6;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#1;n#dl#6;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diskmanagement.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/diskManagement/diskmanagement.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="419" column="22" selection-start-line="419" selection-start-column="22" selection-end-line="419" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileStation.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/fileStation/fileStation.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="139" column="17" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileStation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/fileStation/fileStation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-203">
+              <caret line="149" column="33" lean-forward="true" selection-start-line="149" selection-start-column="33" selection-end-line="149" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#1;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#div#1;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#2;n#div#1;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#1;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#div#1;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#2;n#div#1;n#div#4;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/ipfs/data.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contextMenu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/public/contextMenu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1539">
+              <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>192.168.1.111</find>
+      <find>var obj = eval('(' + data + ')');</find>
+      <find>yh</find>
+      <find>local_group</find>
+      <find>get_group</find>
+      <find>add_local_group</find>
+      <find>用户组</find>
+      <find>电子邮件</find>
+      <find>file</find>
+      <find>network_edit</find>
+      <find>get_u</find>
+      <find>left:50%</find>
+      <find>left:</find>
+      <find>transform</find>
+      <find>560</find>
+      <find>$.get</find>
+      <find>$P</find>
+      <find>192.168.96.130</find>
+      <find>get</find>
+      <find>$(&quot;.lodding&quot;).show()</find>
+      <find>loddin</find>
+      <find>$(&quot;.lodding&quot;).hide();</find>
+      <find>$(&quot;.lodding&quot;</find>
+      <find>$(&quot;.lodding&quot;).show();</find>
+      <find>get_user</find>
+      <find>add_user</find>
+      <find>group</find>
+      <find>user_edit</find>
+      <find>isEmpty</find>
+      <find>if (isEmpty(name)){alert('用户名不能为空');return;}</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Node+&quot;&gt;.bordertop_zoom&quot;</replace>
+      <replace>Node</replace>
+      <replace>appId</replace>
+      <replace>appId1</replace>
+      <replace>process[Node]</replace>
+      <replace>item</replace>
+      <replace>span</replace>
+      <replace>randomNumbe</replace>
+      <replace>.</replace>
+      <replace>。storage_item</replace>
+      <replace>.storage_item</replace>
+      <replace>lastbox_item</replace>
+      <replace>.userTable</replace>
+      <replace>.userTable th</replace>
+      <replace>#userTable</replace>
+      <replace>network_edit</replace>
+      <replace>j</replace>
+      <replace>delete_foter</replace>
+      <replace>111</replace>
+      <replace>admin</replace>
+      <replace>'http://'+data.host+':'+data.port+&quot;</replace>
+      <replace>storage</replace>
+      <replace>raid_group</replace>
+      <replace>file_system</replace>
+      <replace>400</replace>
+      <replace>ele</replace>
+      <replace>10</replace>
+      <replace>td</replace>
+      <replace>192.168.96.130</replace>
+      <replace>192.168.1.111</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/public/drag1.js" />
+        <option value="$PROJECT_DIR$/js/app/fileStation.js" />
+        <option value="$PROJECT_DIR$/js/app/fileStation/fileStation'.css" />
+        <option value="$PROJECT_DIR$/js/public/drag.js" />
+        <option value="$PROJECT_DIR$/js/public/boxZoom.js" />
+        <option value="$PROJECT_DIR$/js/public/html2canvas.min.js" />
+        <option value="$PROJECT_DIR$/js/public/boxMove.js" />
+        <option value="$PROJECT_DIR$/a.js" />
+        <option value="$PROJECT_DIR$/../index.html" />
+        <option value="F:/a.html" />
+        <option value="$PROJECT_DIR$/js/app/diskManagement/temp.html" />
+        <option value="$PROJECT_DIR$/../jqueryYoujian/index.html" />
+        <option value="$PROJECT_DIR$/css/contextMenu.css" />
+        <option value="$PROJECT_DIR$/../a.html" />
+        <option value="$USER_HOME$/Desktop/a.html" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/js/public/createApplication.js" />
+        <option value="$PROJECT_DIR$/js/app/fileStation/fileStation.css" />
+        <option value="$PROJECT_DIR$/js/public/public.js" />
+        <option value="$PROJECT_DIR$/js/public/contextMenu.js" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/js/app/ipfs/ipfs.css" />
+        <option value="$PROJECT_DIR$/js/app/ipfs/data.js" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/data.js" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/ipfs [3].js" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/ipfs [4].js" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/ipfs.js" />
+        <option value="$PROJECT_DIR$/js/app/ipfs/ipfs.js" />
+        <option value="$PROJECT_DIR$/demo.html" />
+        <option value="$PROJECT_DIR$/js/app/diskManagement/data.js" />
+        <option value="$PROJECT_DIR$/js/app/diskManagement/diskmanagement.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/app/fileStation/fileStation.js" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/js/app/diskManagement/diskmanagement.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="16" />
+    <option name="y" value="119" />
+    <option name="width" value="1680" />
+    <option name="height" value="942" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NAS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NAS" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NAS" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/startbootstrap-sb-admin-2-master" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\www\NAS\js\app\fileStation" />
+      <recent name="D:\www\NAS\js\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\www\NAS\images" />
+      <recent name="D:\www\NAS\css" />
+      <recent name="G:\wamp64\www\NAS\js\public" />
+      <recent name="D:\www\NAS\js" />
+      <recent name="D:\www\NAS\js\jquery" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\yh1\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\www\NAS" />
+          <option name="myCopyRoot" value="D:\www\NAS" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\www\NAS" />
+          <option name="myCopyRoot" value="D:\www\NAS" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63c73e1d-a6b6-4bf8-8b8f-586bcbdf0444" name="Default" comment="" />
+      <created>1528682655938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528682655938</updated>
+      <workItem from="1528682658104" duration="1675000" />
+      <workItem from="1528765443783" duration="31618000" />
+      <workItem from="1528851496852" duration="28786000" />
+      <workItem from="1528894085020" duration="1051000" />
+      <workItem from="1528897450672" duration="7699000" />
+      <workItem from="1528937844133" duration="32434000" />
+      <workItem from="1528983391030" duration="14007000" />
+      <workItem from="1529024620505" duration="35312000" />
+      <workItem from="1529072653468" duration="3849000" />
+      <workItem from="1529135541603" duration="24356000" />
+      <workItem from="1529163757670" duration="5415000" />
+      <workItem from="1529213815862" duration="8049000" />
+      <workItem from="1529370078188" duration="26789000" />
+      <workItem from="1529418663383" duration="5753000" />
+      <workItem from="1529456281123" duration="14532000" />
+      <workItem from="1529499132938" duration="12379000" />
+      <workItem from="1529542880203" duration="10631000" />
+      <workItem from="1529975295497" duration="160000" />
+      <workItem from="1529979744700" duration="2966000" />
+      <workItem from="1530078811051" duration="2927000" />
+      <workItem from="1530148507262" duration="16274000" />
+      <workItem from="1530192073958" duration="11818000" />
+      <workItem from="1530234192723" duration="19553000" />
+      <workItem from="1530279428058" duration="2915000" />
+      <workItem from="1530533742103" duration="6148000" />
+      <workItem from="1530580579802" duration="12637000" />
+      <workItem from="1530666111995" duration="18743000" />
+      <workItem from="1530753689599" duration="1856000" />
+      <workItem from="1530838863473" duration="18297000" />
+      <workItem from="1530886869737" duration="11383000" />
+      <workItem from="1530942536153" duration="19752000" />
+      <workItem from="1531026910414" duration="11751000" />
+      <workItem from="1531098662680" duration="15454000" />
+      <workItem from="1531185421255" duration="14518000" />
+      <workItem from="1531224975768" duration="9587000" />
+      <workItem from="1531271190633" duration="19641000" />
+      <workItem from="1531316965779" duration="4332000" />
+      <workItem from="1531359253478" duration="17710000" />
+      <workItem from="1531444151549" duration="6159000" />
+      <workItem from="1531702925255" duration="3484000" />
+      <workItem from="1531789805270" duration="599000" />
+      <workItem from="1531875937079" duration="8013000" />
+      <workItem from="1531963062884" duration="6709000" />
+      <workItem from="1532049726579" duration="23511000" />
+      <workItem from="1532307486172" duration="11674000" />
+      <workItem from="1532394239421" duration="321000" />
+      <workItem from="1532395566542" duration="22037000" />
+      <workItem from="1532480338675" duration="21731000" />
+      <workItem from="1532568177903" duration="11327000" />
+      <workItem from="1532652914966" duration="17281000" />
+      <workItem from="1532912813186" duration="1198000" />
+      <workItem from="1533003743411" duration="14482000" />
+      <workItem from="1533086375501" duration="17609000" />
+      <workItem from="1533172810474" duration="21168000" />
+      <workItem from="1533258255041" duration="20881000" />
+      <workItem from="1533517218395" duration="22868000" />
+      <workItem from="1533604671538" duration="20281000" />
+      <workItem from="1533690455928" duration="18701000" />
+      <workItem from="1533776293265" duration="3198000" />
+      <workItem from="1533868214101" duration="602000" />
+      <workItem from="1534122699049" duration="1053000" />
+      <workItem from="1534129646542" duration="8000" />
+      <workItem from="1534129705294" duration="10355000" />
+      <workItem from="1534233273599" duration="49000" />
+      <workItem from="1534380970502" duration="19149000" />
+      <workItem from="1534467185243" duration="19378000" />
+      <workItem from="1534516397553" duration="7522000" />
+      <workItem from="1534775570523" duration="62000" />
+      <workItem from="1535102984597" duration="603000" />
+      <workItem from="1535424640715" duration="10000000" />
+      <workItem from="1535504264160" duration="4985000" />
+      <workItem from="1535591700762" duration="24485000" />
+      <workItem from="1535676989507" duration="8834000" />
+      <workItem from="1535954452802" duration="599000" />
+      <workItem from="1535961824572" duration="14000" />
+      <workItem from="1535973073799" duration="598000" />
+      <workItem from="1535974028815" duration="20000" />
+      <workItem from="1536022340972" duration="111000" />
+      <workItem from="1536199561756" duration="13880000" />
+      <workItem from="1536299556286" duration="4000" />
+      <workItem from="1536299703530" duration="9704000" />
+      <workItem from="1536541880802" duration="7216000" />
+      <workItem from="1536646660409" duration="685000" />
+      <workItem from="1536714174456" duration="20218000" />
+      <workItem from="1536800469948" duration="8288000" />
+      <workItem from="1536887210800" duration="17274000" />
+      <workItem from="1537150443330" duration="13500000" />
+      <workItem from="1537233041051" duration="2624000" />
+      <workItem from="1537325574461" duration="598000" />
+      <workItem from="1537428054440" duration="9831000" />
+      <workItem from="1537493481860" duration="25577000" />
+      <workItem from="1537837807099" duration="1522000" />
+      <workItem from="1537942928901" duration="11625000" />
+      <workItem from="1538010395045" duration="6739000" />
+      <workItem from="1538122449984" duration="1609000" />
+      <workItem from="1538183106572" duration="3163000" />
+      <workItem from="1538288060734" duration="2839000" />
+      <workItem from="1539455922455" duration="2330000" />
+      <workItem from="1539515571664" duration="13229000" />
+      <workItem from="1539575771253" duration="3543000" />
+      <workItem from="1539658734327" duration="20094000" />
+      <workItem from="1539702381952" duration="6002000" />
+      <workItem from="1539738351557" duration="11307000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1095279000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1359375" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/public/contextMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/fileStation/fileStation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="158" selection-start-line="8" selection-start-column="158" selection-end-line="8" selection-end-column="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/public/createApplication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/fileStation/fileStation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/public/boxZoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="168" column="16" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/public/createApplication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/fileStation/fileStation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="93" column="14" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/public/createApplication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/public/drag.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc" />
+    <entry file="file://$PROJECT_DIR$/js/public/drag.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="157" column="37" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/public/boxZoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/public/boxMove.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/public/contextMenu.js" />
+    <entry file="file://$PROJECT_DIR$/css/contextMenu.css" />
+    <entry file="file:///Volumes/KINGSTON/a.html" />
+    <entry file="file://$USER_HOME$/Desktop/a.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc" />
+    <entry file="file://$PROJECT_DIR$/login.html" />
+    <entry file="file://$PROJECT_DIR$/js/public/html2canvas.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="5" column="8059" selection-start-line="5" selection-start-column="8059" selection-end-line="5" selection-end-column="8059" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/diskmanagement.js" />
+    <entry file="file://$PROJECT_DIR$/js/public/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="15745" column="14" selection-start-line="15745" selection-start-column="14" selection-end-line="15745" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="1213" selection-start-line="1" selection-start-column="1213" selection-end-line="1" selection-end-column="1213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/sectional.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/ipfs [2].js" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/ipfs [3].js" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/ipfs [4].js" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/data.js" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/ipfs [5].js" />
+    <entry file="file://$PROJECT_DIR$/js/public/createApplication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/ipfs/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/ipfs.js" />
+    <entry file="file://$PROJECT_DIR$/js/app/ipfs/ipfs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="76" column="3" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/public/contextMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#1;n#dl#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#1;n#dl#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#1;n#dl#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#3;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#3;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#1;n#dl#3;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#4;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#4;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#1;n#dl#4;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#5;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#5;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#1;n#dl#5;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#6;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#6;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#1;n#dl#6;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#10;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#11;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#12;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#12;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/diskManagement/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="81" column="41" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="38" column="76" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/diskManagement/diskmanagement.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="419" column="22" selection-start-line="419" selection-start-column="22" selection-end-line="419" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/fileStation/fileStation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="139" column="17" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/fileStation/fileStation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="149" column="33" lean-forward="true" selection-start-line="149" selection-start-column="33" selection-end-line="149" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#1;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#1;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#div#1;n#div#4;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/diskManagement/diskmanagement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="918" column="75" selection-start-line="918" selection-start-column="75" selection-end-line="918" selection-end-column="75" />
+          <folding>
+            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#1;n#table#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#4;n#table#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="e#79530#91076#0" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#1;n#dl#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#1;n#dl#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#1;n#dl#2;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#3;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#3;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#1;n#dl#3;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#4;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#4;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#1;n#dl#4;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#5;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#5;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#1;n#dl#5;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#6;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#6;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#1;n#dl#6;n#div#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

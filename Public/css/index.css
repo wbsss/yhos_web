@@ -1,0 +1,227 @@
+body{overflow-x: hidden; overflow-y: hidden;margin: 0;padding: 0;font-family:"微软雅黑",Georgia,"Times New Roman",Times,Serif;
+    /*background: url("../images/bg_4.jpg");*/
+    width: 100%;height: 100%;background-size:cover;background-attachment: fixed;
+    /* 设置背景颜色，背景图加载过程中会显示背景色 */
+    background-color:rgb(70,116,140) !important;
+}
+ul, li { list-style-type: none; padding: 0; margin: 0; }
+input{outline:none;}
+.desktop_app{position: absolute;width: 80px;height: 80px;text-align: center;z-index: 1;}
+.desktop_app:hover{border: 1px solid #eeeeee;border-radius: 5px;}
+.desktop_app img{width: 50px;height: 50px;}
+.desktop_app span{display: block;color: #fff;font-size: 14px;text-shadow: black 0.1em 0.1em 0.2em;}
+/*阴影效果*/
+.taskbar,#dropdown_box,.file_windows,#user_box{box-shadow:#666 0.1em 0.1em 30px;}
+#taskbar{width: 100%;height: 40px;background: #666;margin-bottom: 1px; position: relative; z-index: 999;}
+#menu_button{display: inline-block;vertical-align:top;outline:none;width: 100px;height: 40px;margin: 0px 20px;cursor: pointer;background: #666;border: 1px solid #777;color: white;}
+#dropdown_box{
+    display:block;
+    position: absolute;
+    top: -999px;
+    left: 20px;
+    width: 440px;height: 670px;
+    background: rgba(153,153,153,0.9);
+    border-radius: 2px;
+    z-index: 998;
+    overflow-x: hidden;
+}
+
+body{
+    /*禁止选中*/
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    /*禁止选中end*/
+}
+.file_windows{
+    width: 1000px;
+    height: 620px;
+    border-radius: 3px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    background: #fff;
+    /*溢出部分隐藏*/
+    white-space:nowrap;
+    overflow:hidden;
+    border: 1px solid #cccccc;
+    /*溢出部分隐藏end*/
+    /*子元素高度填充*/
+    flex-flow: column;
+    display:flex;
+}
+.file_windows_head{
+    width: 100%;
+    height: 35px;
+    background: #eeeeee;
+    border-bottom: 1px solid #cccccc;
+    /*background: url("../../../images/logo.png")12px no-repeat;*/
+    /*border-bottom: 1px solid #1c7430;*/
+    cursor:move;
+}
+.file_windows_head span{
+    font-size: 13px;
+    line-height: 35px;
+    margin-left: 50px;
+
+}
+.file_windows_head_button{
+    float: right;
+    height: 35px;
+    margin-right: 0;
+    cursor:pointer;
+}
+.file_windows_head_button>div:nth-child(3):hover{
+    background:rgb(255,73,71) url("../images/icon_close.png") no-repeat center center;
+    background-size:20px 20px;
+}
+.file_windows_head_button>div:nth-child(2):hover{
+    background:#bbb url("../images/maximize.png") no-repeat center center;
+    background-size:15px 15px;
+}
+.file_windows_head_button>div:nth-child(1):hover{
+    background:#bbb url("../images/minmize.png") no-repeat center 10px;
+    background-size:12px 2px;
+}
+.file_windows_head_button>div:nth-child(3){
+    background:url("../images/icon_close.png") no-repeat center center;
+    background-size:20px 20px;
+}
+.file_windows_head_button>div:nth-child(2){
+    background:url("../images/maximize.png") no-repeat center center;
+    background-size:15px 15px;
+}
+.file_windows_head_button>div:nth-child(1){
+    background:url("../images/minmize.png") no-repeat center 10px;
+    background-size:12px 2px;
+}
+.file_windows_head_button div{
+    float: left;
+    width: 40px;
+    height: 20px;
+    border: 1px solid #666;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 2px;
+}
+.little_box{
+    display: none;
+    position: absolute;
+    z-index: 999;
+    padding-top: 10px;
+    top: 40px;
+    left: 56px;
+    width:240px;
+    background: #80bdff;
+    text-align: center;
+}
+.little_box>canvas{
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+}
+#taskbar ul{
+    position: relative;
+    display: inline-block;
+    line-height: 40px;
+}
+#taskbar ul li{
+    width: 62px;
+    text-align: center;
+    height: 100%;
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+    /*background: red;*/
+    display: inline-block;
+}
+#taskbar ul li:hover{
+    background: #999;
+}
+#menu_button:hover{
+    color:#80bdff;
+ }
+#taskbar ul li img{
+    width: auto;
+    height: auto;
+    max-width: 30px;
+    max-height: 30px;
+}
+#user_bar{
+    height: 100%;
+    float: right;
+    margin-right: 100px;
+}
+#user_bar>p{
+    display: block;
+    width:27px;
+    height: 100%;
+    /*line-height: 40px;*/
+    /*border: 1px solid #777;*/
+    color: black;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-shadow: none;
+    background: url("../images/root.png") no-repeat;
+
+
+}
+#taskbar #user_bar>p:hover{
+    box-shadow: 0 2px 5px rgba(255,255,255,.5);
+
+}
+#taskbar #user_bar:hover{
+    background: #999;
+}
+#user_box{
+    display: block;
+    position: absolute;
+    z-index: 998;
+    top: -250px;
+    right: 0px;
+    background: rgba(153,153,153,0.9);
+    width: 160px;
+    height: 230px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    padding: 12px 16px;
+    text-align: center;
+}
+#user_box>span{
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    /*background: red;*/
+    margin: 13px 0;
+    /*padding-left: 10px;*/
+    text-align: left;
+    color: black;
+}
+#user_box>span:hover{
+    color: white;
+    /*background: #80bdff;*/
+    /*border-bottom: 1px solid #ccc;*/
+    /*border-top: 1px solid #ccc;*/
+}
+.app_search{
+    width: 400px;
+    height: 30px;
+    margin: 15px 15px;
+    color: #aaaaaa;
+    text-indent: 10px;
+    font-size: 14px;
+}
+.storage_management .jstree{
+    width: 240px;
+}
+.jstree ul:not(:first-child){
+    margin-left: 10px;
+    /*background: #005cbf;*/
+}

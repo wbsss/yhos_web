@@ -1,0 +1,441 @@
+/*-----------------------控制面板css-------------------------------*/
+.control_panel>.control_panel_item{
+    /*width: 300px;*/
+    padding-right: 20px;
+    padding-left: 20px;
+    white-space:normal;
+    padding: 10px 20px;
+}
+.control_panel{
+    padding: 10px 10px 0 10px;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    /*子元素高度填充*/
+    flex-flow: column;
+    display:flex;
+}
+.control_panel_item:nth-child(2n+1){
+    background: #cccccc;
+}
+.control_panel_item:nth-child(2n+0){
+    background: #ddd;
+}
+.control_panel .item_title {
+    width: 100%;
+    height: 30px;
+    /*border-bottom: 1px solid #aaa;*/
+    font-weight: 700;
+    color: #666;
+    font-size: 18px;
+    font-family:"STXihei";
+}
+.control_panel .control_app{
+    cursor: pointer;
+    width: 80px;height: 80px;text-align: center;margin:10px 0 0 10px;display: inline-block;word-wrap: break-word;
+}
+.control_panel .control_app img{width: 50px;height: 50px;}
+.control_panel .control_app span{display: block;color: #666;font-size: 13px;font-weight: 500;}
+
+.control{
+    display: flex;
+    flex: 1;
+}
+.control_left{
+    padding-top: 10px;
+    border-right: 1px solid #aaaaaa;
+    width: 240px;
+    height: 100%;
+    background: rgb(221,228,235);
+    position: relative;
+    overflow-x:hidden;
+    font-size: 14px;
+}
+.control_right{
+    flex: 1px;
+    overflow:hidden;
+    font-size: 14px;
+}
+.control_left>.control_menu {
+    padding:0 16px 0 16px;
+}
+.control_left>#control_home{
+    margin-left: 5px;
+    border: none;
+    border: 1px solid #aaaaaa;
+}
+.control_left>#control_home:hover,.tool_bar>button:hover{
+    background: #80bdff;
+}
+.control_left>.serch{
+    margin-left: 5px;
+    width: 180px;
+    height: 25px;
+    color: #aaa;
+}
+.control_tree_root>div:nth-child(1){
+    cursor:pointer;
+    height: 40px;
+    line-height: 40px;
+}
+.control_tree_root>div:nth-child(1):hover{
+    background: #ccc;
+}
+.control_tree{
+    padding-left: 10px;
+}
+.control_tree>li{
+    line-height: 40px;
+    cursor:pointer;
+}
+.control_tree>li:hover{
+    background: #ccc;
+}
+/*用户账户*/
+.tab_strip{
+    height: 35px;
+    border-bottom: 0;
+    box-shadow:#aaa 0 0.1em;
+}
+.tab_strip>span{
+    width: 48px;
+    height: 24px;
+    text-align: center;
+    padding: 0 20px;
+    margin-left: 10px;
+    border-left: 1px solid #aaaaaa;
+    /*font-weight: 500;*/
+    cursor: pointer;
+}
+.tab_strip>span:hover{
+    color: #2A588C;
+}
+.user_title{
+    /*border: 1px solid red;*/
+    overflow:auto;
+    width: 100%;
+    flex: 1;
+}
+#userTable{
+    margin-left: 10px;
+}
+#userTable tr>th{
+    font-weight:normal;
+    color: #2A588C;
+    border-right: 1px solid #aaa;
+}
+#userTable tr>td,#userTable tr>th{
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    padding-left: 5px;
+
+}
+.tool_bar>button{
+    margin-right: 15px;
+    border: none;
+    width: auto;
+    height: 28px;
+    border: 1px solid #aaaaaa;
+}
+/*弹出框*/
+.control_edit{
+    width: 80%;
+    height: auto;
+    position: absolute;
+    left: 10%;
+    /*margin-left: -100px;*/
+}
+/*用户账户-end*/
+/*网络界面*/
+.network_body{
+    overflow:auto;
+    width: 100%;
+    flex: 1;
+}
+#network_jm_table{
+    border: 1px solid black;
+}
+.network_item{
+    width: 100%;
+    border: 1px solid #cccccc;
+    padding-left: 60px;
+    position: relative;
+}
+.item-toggle-img{
+    position: absolute;
+    height: 100%;
+    padding-top: 10px;
+    top: 0;
+    right: 0;
+}
+.network_edit>.network_edit_content,.user_edit>.user_edit_content{
+    /*padding: 0 20px 100px 20px;*/
+    padding: 0 20px;
+    padding-bottom: 100px;
+    /*box-shadow:#aaa 0 0.1em;*/
+}
+.network_edit_content>.content_wrapper{
+    padding: 10px 10px;
+    /*background: red;*/
+}
+.network_edit_content .content_item,.user_edit_content .content_item{
+    /*border: 1px solid red;*/
+    height: 28px;
+    margin-top: 5px;
+    font-size: 11px;
+}
+.network_edit_content .input label,.user_edit_content .input label{
+    width: 200px;
+    margin:0 0 0 30px;
+}
+.content_wrapper_foter{
+    height: 45px;
+    border-top: 1px solid #aaa;
+    display: flex;
+    position: relative;
+    margin: 0 20px;
+}
+.content_wrapper_foter>span{
+    position: absolute;
+    border-radius: 4px;
+    width: 80px;
+    line-height: 30px;
+    margin: 8px 0;
+    text-align: center;
+}
+.content_wrapper_foter>span:nth-child(1){
+    right: 120px;
+    background: #80bdff;
+    border: 1px solid #80bdff;
+}
+.content_wrapper_foter>span:nth-child(2){
+    right: 20px;
+    background: #ECE7F1;
+    border: 1px solid #aaa;
+}
+.content_wrapper_foter>span:hover{
+    border: 1px solid #333;
+}
+/*网络界面-end*/
+/*文件服务界面*/
+#control_wjfw{
+    /*flex: 1;*/
+    /*overflow-y: auto;*/
+    /*background: red;*/
+}
+.fileserver{
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid darkorange;*/
+}
+#control_wjfw .fileserver_body{
+    /*background: red;*/
+    width: 100%;
+    height: 80%;
+    overflow-y: auto;
+    /*overflow-y: auto;*/
+}
+
+/*文件服务界面-end*/
+/*用户群组*/
+.tips_box{
+    background: #eee;
+}
+.delet_user,.add_usergroup,.edit_usergroup,.delet_group,.create_share_file_directory,.delet_share_file_directory,.set_smb_service,.set_ftp_service,.lodding{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 25%;
+}
+
+/*-----------------------控制面板css-end-------------------------------*/
+
+
+/*-----------------------存储管理css-------------------------------*/
+
+.storage_management{
+    display: flex;
+    flex: 1;
+    font-size: 14px;
+}
+.storage_management .storage_left{
+    border-right: 1px solid #aaa;
+    width: 240px;
+    background: rgb(221,228,235);
+}
+.storage_management .storage_right{
+    flex: 1;
+}
+.storage_left .storage_item{
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    border-radius: 3px;
+}
+.storage_left .storage_item>span{
+    line-height: 50px;
+    font-size: 14px;
+    color: #666;
+}
+.storage_management .storage_right_block{
+    height: 100%;
+    width: 100%;
+    padding: 0 15px;
+    overflow: auto;
+}
+.storage_management .storage_right_block>ul .item-title{
+    height: 30px;
+    border-bottom:1px dashed #999;
+    width: 100%;
+
+}
+.storage_management .storage_right_block>ul .item-title>span{
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.storage_management .storage_right_block>ul .item_content{
+    overflow: hidden;
+    width: 100%;
+}
+.storage_right_block .disk_info,.storage_right_block .partition_info{
+    padding: 10px;
+    font-size: 12px;
+}
+.storage_right_block .disk_info>li:first-child{
+    display: flex;
+    height: 25px;
+    width: 100%;
+}
+.storage_right_block .disk_info>li:first-child>div{
+    flex: 2;
+    font-size: 12px;
+    line-height: 25px;
+}
+.storage_right_block .disk_info>li:first-child>table{
+    flex: 8;
+    /*border: 1px solid black;*/
+}
+.storage_right_block .disk_info>li:first-child>table td{
+    border: 1px dashed #999;
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+    margin: 1px 2px 0 0;
+}
+.storage_right_block .disk_info>li:nth-child(2){
+    width: 100%;
+    height: 70px;
+
+}
+.storage_right_block .disk_info>li:nth-child(2) table{
+    width: 100%;
+    height: 100%;
+}
+.storage_right_block .disk_info>li:nth-child(2) table td>div:first-child{
+    border-bottom: 2px solid #005cbf;
+}
+
+.storage_right_block .partition_info>li>div{
+    width: 180px;
+    height: 110px;
+    display: inline-block;
+    margin-left: 10px;
+    background: #eeeeee;
+    border: 3px solid #0c5460;
+}
+.storage_right_block .partition_info>li>div>div{
+    text-align: center;
+    margin: 5px 0;
+}
+.disk_space .disk_space_name,.raid_group .raid_group_name,.hdd_ssd .hdd_ssd_name{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.disk_space ul,.raid_group ul,.hdd_ssd ul{
+    margin:0;
+    padding:0;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-radius: 2px;
+
+}
+.raid_group>ul>li,.hdd_ssd>ul>li,.disk_space>ul>li{
+    margin-top: 10px;
+}
+.disk_space_content,.raid_group_content,.hdd_ssd_content{
+    overflow: hidden;
+}
+.disk_space_name>div:first-of-type,.raid_group_name>div:first-of-type,.hdd_ssd_name>div:first-of-type{
+    position: absolute;
+    top:5px;
+    right: 10px;
+}
+.disk_space_info table,.raid_group_info table,.hdd_ssd_info table{
+    width: 100%;
+    position: relative;
+    font-size: 15px;
+
+}
+.disk_space_info table td,.raid_group_info table td,.hdd_ssd_info table td{
+    width: 50%;
+}
+.add_raid,.add_storage{
+    width: 80%;
+    height: auto;
+    position: absolute;
+    left: 10%;
+}
+.add_raid .content_item>label,.add_storage .content_item>label{
+    width: 35%;
+}
+.add_raid .content_item>input,.add_raid .content_item>select{
+    width: 200px;
+}
+.add_raid .input,.add_storage .input{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+add_raid .raid_type,add_raid .raid_max,.add_storage .raid_group,.add_storage .file_system{
+    background:#fafdfe;
+    height:28px;
+    width:180px;
+    line-height:28px;
+    border:1px solid #9bc0dd;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+}
+.select_disk{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+.select_disk ul li{
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.select_disk ul li:hover{
+    background: #eeeeee;
+}
+.select_disk>ul{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 200px;
+    flex: 1;
+    display: block;
+    border: 1px solid #aaaaaa;
+    overflow: auto;
+}
+.disk_delet_storage{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 25%;
+}
+/*-----------------------存储管理css-end-------------------------------*/

@@ -1,0 +1,1484 @@
+<!--文件管理-->
+<div class="file_windows">
+    <div class="file_windows_head handler">
+        <span>文件管理</span>
+        <div class="file_windows_head_button">
+            <div>-</div>
+            <div>=</div>
+            <div>x</div>
+        </div>
+    </div>
+    <div class="win_navigation_bar">
+        <div class="win_navbar_search">
+            <div class="navbar_btn_last win_search_btn" ></div>
+            <div class="navbar_btn_next win_search_btn" ></div>
+            <div class="navbar_btn_update" class="win_search_btn"></div>
+            <span>快速访问</span>
+            <input class="navbar_input_path" name="path" value="" type="text"/>
+            <span class="span_search">搜索</span>
+            <input class="navbar_input_search" name = "search" value="" type="text"/>
+        </div>
+        <div class="win_navbar_content">
+            <div id="btn_upload" class="win_navbar_btn" >
+                <span>上传</span>
+                <ul>
+                    <li><span>上传覆盖</span></li>
+                    <li><span>上传忽略</span></li>
+                </ul>
+            </div>
+            <div id="btn_add" class="win_navbar_btn"  >
+                <span>新增</span>
+                <ul>
+                    <li><span>新增文件夹</span></li>
+                    <li><span>新增共享文件夹</span></li>
+                </ul>
+            </div>
+            <div id="btn_operation" class="win_navbar_btn" >
+                <span>操作</span>
+                <ul>
+                    <li><span>下载</span></li>
+                    <li><span>在新窗口打开文件</span></li>
+                    <li><span>加到压缩文件</span></li>
+                    <li><span>压缩到...</span></li>
+                    <li>
+                        <span>复制到/移动到</span>
+                        <ul>
+                            <li><span>复制到...</span></li>
+                            <li><span>移动到...</span></li>
+                        </ul>
+                    </li>
+                    <li><span>剪切</span></li>
+                    <li><span>复制</span></li>
+                    <li><span>删除</span></li>
+                    <li><span>重命名</span></li>
+                    <li><span>创建桌面快捷方式</span></li>
+                    <li><span>属性</span></li>
+                    <li><span>共享</span></li>
+                </ul>
+            </div>
+            <div id="btn_tool" class="win_navbar_btn" >
+                <span>
+                    工具
+                </span>
+                <ul>
+                    <li>
+                        <span>远程连接</span>
+                        <ul>
+                            <li><span>连接设置</span></li>
+                            <li><span>连接列表</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>装载远程文件夹</span>
+                        <ul>
+                            <li><span>CIFS共享文件夹</span></li>
+                            <li><span>NFS共享文件夹</span></li>
+                        </ul>
+                    </li>
+                    <li><span>装载虚拟设备</span></li>
+                    <li><span>卸载</span></li>
+                    <li><span>转载链表</span></li>
+                    <li><span>共享链接管理器</span></li>
+                </ul>
+            </div>
+            <div id="btn_set" class="win_navbar_btn" ><span>设置</span></div>
+        </div>
+        <!--内容-->
+        <div class="box_content">
+            <div class="file_bar">
+                <ul>
+                    <li>
+                        <span class="flex_bar_img"><img src="images/s.gif"/></span>
+                        <span>1111111</span>
+                        <ul>
+                            <li>
+                                <span class="flex_bar_img"><img src="images/s.gif"/></span>
+                                <span>222222</span>
+                                <ul>
+                                    <li>
+                                        <span class="flex_bar_img"><img src="images/s.gif"/></span>
+                                        <span>333333</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="flex_bar_img"><img src="images/s.gif"/></span>
+                                <span>222222</span>
+                                <ul>
+                                    <li>
+                                        <span class="flex_bar_img"><img src="images/s.gif"/></span>
+                                        <span>33333</span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="file_partition_1" class="file_partition"></div>
+            <div class="file_content">
+                <div class="file_content_td">
+                    <div class="item">名称</div>
+                    <div class="item">12</div>
+                    <div class="item">13</div>
+                    <div class="item">14</div>
+                </div>
+                <div class="file_partition"></div>
+                <div class="file_content_td">
+                    <div class="item">大小</div>
+                    <div class="item">22</div>
+                    <div class="item">23</div>
+                    <div class="item">24</div>
+                </div>
+                <div class="file_partition"></div>
+                <div class="file_content_td">
+                    <div class="item">类型</div>
+                    <div class="item">32</div>
+                    <div class="item">33</div>
+                    <div class="item">34</div>
+                </div>
+                <div class="file_partition"></div>
+            </div>
+        </div>
+    </div>
+    <div id='add_foter' class="file_windows" style="display:none;width: 40%;height: auto;position:absolute;top:0;left:30%;font-size: 14px">
+        <div style="text-align: center;width:100%;background: #eee">新建文件夹</div>
+        <div>
+            <span style='display:inline-block;width: 30%'>路径：</span><span></span><br/>
+            <span style='display:inline-block;width: 30%'>请输入文件夹名称：</span><input type='text' name='folder' style='margin:10px 10%'/>
+        </div>
+        <div class="content_wrapper_foter">
+            <span>确定</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <!--删除文件-->
+    <div id='delete_foter' class="file_windows" style="display:none;width: 40%;height: auto;position:absolute;top:0;left:30%;font-size: 14px">
+        <div style="text-align: center;width:100%;background: #eee">删除文件</div>
+        <div>
+            <span style='display:inline-block;width: 30%'>请输入路径：</span><span></span><br/>
+            <span style='display:inline-block;width: 30%'>请输入文件名称：</span><input type='text' name='folder' style='margin:10px 10%'/>
+        </div>
+        <div class="content_wrapper_foter">
+            <span>删除</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <!--复制文件-->
+    <div id='copy_foter' class="file_windows" style="display:none;width: 40%;height: auto;position:absolute;top:0;left:30%;font-size: 14px">
+        <div style="text-align: center;width:100%;background: #eee">复制文件</div>
+        <div>
+            <span style='display:inline-block;width: 30%'>请输入文件名称：</span><input type='text' name='folder' style='margin:10px 10%'/><br/>
+            <span style='display:inline-block;width: 30%'>请输入路径：</span><input type='text' name='folder' style='margin:10px 10%'/><br/>
+            <span style='display:inline-block;width: 30%'>请输入目标路径：</span><input type='text' name='folder' style='margin:10px 10%'/><br/>
+        </div>
+        <div class="content_wrapper_foter">
+            <span>确定</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <!--移动文件-->
+    <div id='move_foter' class="file_windows" style="display:none;width: 40%;height: auto;position:absolute;top:0;left:30%;font-size: 14px">
+        <div style="text-align: center;width:100%;background: #eee">移动文件</div>
+        <div>
+            <span style='display:inline-block;width: 30%'>请输入文件名称：</span><input type='text' name='folder' style='margin:10px 10%'/><br/>
+            <span style='display:inline-block;width: 30%'>请输入路径：</span><input type='text' name='folder' style='margin:10px 10%'/><br/>
+            <span style='display:inline-block;width: 30%'>请输入目标路径：</span><input type='text' name='folder' style='margin:10px 10%'/><br/>
+        </div>
+        <div class="content_wrapper_foter">
+            <span>确定</span>
+            <span>取消</span>
+        </div>
+    </div>
+
+</div>
+<!--磁盘管理-->
+<div class="file_windows">
+    <div class="file_windows_head handler">
+        <span>name</span>
+        <div class="file_windows_head_button">
+            <div>-</div>
+            <div>=</div>
+            <div>x</div>
+        </div>
+    </div>
+    <div class="storage_management">
+        <div class="storage_left">
+            <ul>
+                <li class="storage_item" id="xtgk">
+                    <span>系统概况</span>
+                </li>
+                <li class="storage_item" id="raid">
+                    <span>RAID Group</span>
+                </li>
+                <li class="storage_item" id="cckj">
+                    <span>存储空间</span>
+                </li>
+                <li class="storage_item" id="iscsi_lun">
+                    <span>iSCSI LUN</span>
+                </li>
+                <li class="storage_item" id="iscsi_target">
+                    <span>iSCSI Target</span>
+                </li>
+                <li class="storage_item" id="hdd_ssd">
+                    <span>HDD/SDD</span>
+                </li>
+                <li class="storage_item" id="hot_spare">
+                    <span>Hot Spare</span>
+                </li>
+                <li class="storage_item" id="ssd_cache">
+                    <span>SSD 缓存</span>
+                </li>
+            </ul>
+        </div>
+        <div class="storage_right">
+            <div class="storage_right_block system_overview" style="display: block">
+                <ul>
+                    <li>
+                        <div class="item-title"><span>硬盘信息</span></div>
+                        <div class="item_content">
+                            <ul class="disk_info">
+                                <li>
+                                    <div>yunhui</div>
+                                    <table>
+                                        <tr>
+                                            <td style="background: #2A588C;border: 0"></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li>
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div><span>已使用硬盘</span></div>
+                                                <div><span>1</span></div>
+                                            </td>
+                                            <td>
+                                                <div><span>Hot Spare磁盘</span></div>
+                                                <div><span>0</span></div>
+                                            </td>
+                                            <td>
+                                                <div><span>未使用磁盘</span></div>
+                                                <div><span>0</span></div>
+                                            </td>
+                                            <td>
+                                                <div><span>可用插槽</span></div>
+                                                <div><span>11</span></div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-title"><span>首个卷使用情况</span></div>
+                        <div class="item_content">
+                            <ul class="partition_info">
+                                <li>
+                                    <div>
+                                        <div>存储空间1(正常)</div>
+                                        <div>Basic,btrfs</div>
+                                        <div><span>652.7MB</span><span>/889.8GB</span></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-title"><span>iSCSI使用率</span></div>
+                        <div class="item_content">
+                            <ul>
+                                <li>尚未开发</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="storage_right_block raid_group" style="display: none">
+                <div class="tool_bar">
+                    <button class="storage_tool_add">新增</button>
+                    <button class="storage_tool_delete">删除</button>
+                    <button class="storage_tool_manage">管理</button>
+                </div>
+                <ul>
+                    <li>
+                        <div class="raid_group_name">
+                            <span>RAID Group 1</span>
+                            <div>
+                                <span>652MB</span>
+                                <span>/889.84GB</span>
+                            </div>
+                            <div>
+                                Basic,btrfs
+                            </div>
+                        </div>
+                        <div class="raid_group_content">
+                            <ul class="raid_group_info">
+                                <li>
+                                    <div>
+                                        <table>
+                                            <tr>
+                                                <td>存储空间类型</td>
+                                                <td>Basic</td>
+                                            </tr>
+                                            <tr>
+                                                <td>支持多个卷</td>
+                                                <td>否</td>
+                                            </tr>
+                                            <tr>
+                                                <td>状态</td>
+                                                <td>正常</td>
+                                            </tr>
+                                            <tr>
+                                                <td>状态</td>
+                                                <td>正常</td>
+                                            </tr>
+                                            <tr>
+                                                <td>容量</td>
+                                                <td>1889.84GB</td>
+                                            </tr>
+                                            <tr>
+                                                <td>已用容量</td>
+                                                <td>652.71MB</td>
+                                            </tr>
+                                            <tr>
+                                                <td>可用容量</td>
+                                                <td>889.20GB</td>
+                                            </tr>
+                                        </table>
+                                        <div><span>硬盘信息</span></div>
+                                        <table>
+                                            <tr style="background: #6eb6de;">
+                                                <td>设备</td>
+                                                <td>编号</td>
+                                                <td>硬盘大小</td>
+                                                <td>硬盘类型</td>
+                                                <td>状态</td>
+                                            </tr>
+                                            <tr style="background: #fff">
+                                                <td>yunhui</td>
+                                                <td>硬盘1</td>
+                                                <td>931.51GB</td>
+                                                <td>HDD</td>
+                                                <td>正常</td>
+                                            </tr>
+                                        </table>
+                                        <div><span>可用Hot Spare硬盘</span></div>
+                                        <table>
+                                            <tr style="background: #6eb6de;">
+                                                <td>设备</td>
+                                                <td>编号</td>
+                                                <td>硬盘大小</td>
+                                                <td>硬盘类型</td>
+                                                <td>状态</td>
+                                            </tr>
+                                            <tr style="background: #fff">
+                                                <td>无可用备缓硬盘</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                        <table>
+                                            <tr>
+                                                <td>存储空间</td>
+                                                <td>LUN(段落分块)</td>
+                                                <td>可用容量</td>
+                                            </tr>
+                                        </table>
+                                        <table>
+                                            <tr>
+                                                <td>625.7 GB</td>
+                                                <td>0 Bytes</td>
+                                                <td>0 Bytes</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="storage_right_block disk_space" style="display: none">
+                <div class="tool_bar">
+                    <button class="storage_tool_add">新增</button>
+                    <button class="storage_tool_edit">编辑</button>
+                    <button class="storage_tool_delete">删除</button>
+                    <button class="storage_tool_manage">管理</button>
+                    <button class="storage_tool_config">配置</button>
+                </div>
+                <ul>
+                    <li>
+                        <div class="disk_space_name">
+                            <span>存储空间1-正常</span>
+                            <div>
+                                <span>652MB</span>
+                                <span>/889.84GB</span>
+                            </div>
+                            <div>
+                                Basic,btrfs
+                            </div>
+                        </div>
+                        <div class="disk_space_content">
+                            <ul class="disk_space_info">
+                                <li>
+                                    <div>
+                                        <table>
+                                            <tr>
+                                                <td>存储空间类型</td>
+                                                <td>Basic</td>
+                                            </tr>
+                                            <tr>
+                                                <td>RAID Group</td>
+                                                <td>RAID Group1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>文件系统</td>
+                                                <td>Btrfs</td>
+                                            </tr>
+                                            <tr>
+                                                <td>状态</td>
+                                                <td>正常</td>
+                                            </tr>
+                                            <tr>
+                                                <td>容量</td>
+                                                <td>1889.84GB</td>
+                                            </tr>
+                                            <tr>
+                                                <td>已用容量</td>
+                                                <td>652.71MB</td>
+                                            </tr>
+                                            <tr>
+                                                <td>可用容量</td>
+                                                <td>889.20GB</td>
+                                            </tr>
+                                        </table>
+                                        <table>
+                                            <tr>
+                                                <td>共享文件夹使用</td>
+                                                <td>LUN(一般文件)</td>
+                                                <td>可用容量</td>
+                                            </tr>
+                                        </table>
+                                        <table>
+                                            <tr>
+                                                <td>625.7MB</td>
+                                                <td>4KB</td>
+                                                <td>889.2GB</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="storage_right_block hdd_ssd" style="display: none">
+                <ul>
+                    <li>
+                        <div class="hdd_ssd_name">
+                            <span>硬盘1-正常</span>
+                            <div>
+                                <span>652MB</span>
+                                <span>/889.84GB</span>
+                            </div>
+                            <div>
+                                WDC WD10EZEX-08WN4A0,931.5GB HDD
+                            </div>
+                        </div>
+                        <div class="hdd_ssd_content">
+                            <ul class="hdd_ssd_info">
+                                <li>
+                                    <div>
+                                        <table>
+                                            <tr>
+                                                <td>位置</td>
+                                                <td>DS3615xs</td>
+                                            </tr>
+                                            <tr>
+                                                <td>RAID Group</td>
+                                                <td>RAID Group1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>状态</td>
+                                                <td>正常</td>
+                                            </tr>
+                                            <tr>
+                                                <td>S.M.A.R.T.状态</td>
+                                                <td>正常</td>
+                                            </tr>
+                                            <tr>
+                                                <td>预计寿命</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>坏扇区数量</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>温度</td>
+                                                <td>34℃/93℉</td>
+                                            </tr>
+                                            <tr>
+                                                <td>序列号</td>
+                                                <td>WD-WCC6Y5XUYLA1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>固件版本</td>
+                                                <td>02.01A02</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4K 原生硬盘</td>
+                                                <td>否</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--踏出窗口-->
+        <div class="add_raid file_windows" style="display: none;top:0">
+            <div class="content_wrapper">
+                <form>
+                    <h6>配置RAID Group属性</h6>
+                    <div class="content_item input">
+                        <label for="raid_desc">描述:</label>
+                        <input type="text" value="RAID 5" name="raid_desc" id="raid_desc" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="raid_type">存储空间类型:</label>
+                        <select id="raid_type" class="raid_type" name="raid_type" onChange="getsltCountry()" >
+                            <option value="1">Basic</option>
+                            <option value="1">RAID 1</option>
+                            <option value="2" selected="selected">RAID 5</option>
+                            <option value="3">RAID 6</option>
+                            <option value="4">RAID 10</option>
+                        </select>
+                    </div>
+                    <div class="content_item input raid_max_content">
+                        <label for="raid_max">RAID的最大硬盘输了限制:</label>
+                        <select name="raid_max" id="raid_max" class="raid_max" onChange="getCity()">
+                            <option value="0">6</option>
+                            <option value="1" selected="selected">12</option>
+                            <option value="2">24</option>
+                        </select>
+                    </div>
+                    <div class="content_item input min_max_code">
+                        <label>各RAID阵列的最小、最大硬盘编号:</label>
+                        <span>3/12</span>
+                    </div>
+                    <h6>选择硬盘</h6>
+                    <div class="select_disk">
+                        <ul>
+                            <li> <span>硬盘4 - SATA / HDD 931.51GB</span><span style="float: right;color: green;font-size: 20px;font-weight: 800;width:20px;cursor:pointer">+</span></li>
+                            <li> <span>硬盘4 - SATA / HDD 931.51GB</span><span style="float: right;color: green;font-size: 20px;font-weight: 800;width:20px;cursor:pointer">+</span></li>
+                            <li> <span>硬盘4 - SATA / HDD 931.51GB</span><span style="float: right;color: green;font-size: 20px;font-weight: 800;width:20px;cursor:pointer">+</span></li>
+                            <li> <span>硬盘4 - SATA / HDD 931.51GB</span><span style="float: right;color: green;font-size: 20px;font-weight: 800;width:20px;cursor:pointer">+</span></li>
+                            <li> <span>硬盘4 - SATA / HDD 931.51GB</span><span style="float: right;color: green;font-size: 20px;font-weight: 800;width:20px;cursor:pointer">+</span></li>
+                            <li> <span>硬盘4 - SATA / HDD 931.51GB</span><span style="float: right;color: green;font-size: 20px;font-weight: 800;width:20px;cursor:pointer">+</span></li>
+                            <li> <span>硬盘4 - SATA / HDD 931.51GB</span><span style="float: right;color: green;font-size: 20px;font-weight: 800;width:20px;cursor:pointer">+</span></li>
+                        </ul>
+                        <ul>
+
+                        </ul>
+                    </div>
+                    <div class="disk_check">
+                        <h6>硬盘检查</h6>
+                        <label>
+                            <input class="disk_check_up_yes" type="radio" name="disk_check-radio">
+                            <span class="">是</span>
+                        </label>
+                        <label>
+                            <input class="disk_check_up_no" checked type="radio" name="disk_check-radio">
+                            <span class="">否</span>
+                        </label>
+                    </div>
+                </form>
+
+            </div>
+            <div class="content_wrapper_foter">
+                <span>应用</span>
+                <span>取消</span>
+            </div>
+        </div>
+        <!--创建存储空间-->
+        <div class="add_storage file_windows" style="display: none;top:0">
+            <div class="content_wrapper">
+                <form>
+                    <h6 style="text-align: center;padding: 10px 0">存储空间创建向导</h6>
+                    <div class="content_item input">
+                        <label for="storage_desc">描述:</label>
+                        <input type="text" value="RAID Group1" name="storage_desc" id="storage_desc" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="raid_group">RAID Group:</label>
+                        <select id="raid_group" class="raid_group" name="raid_group">
+                            <option value="1">RAID Group1</option>
+                        </select>
+                    </div>
+                    <div class="content_item input file_system_content">
+                        <label for="file_system">文件系统:</label>
+                        <select name="file_system" id="file_system" class="file_system">
+                            <option value="0">Btrfs</option>
+                            <option value="1">ext4</option>
+                        </select>
+                    </div>
+                    <h6 style="text-align: center;padding: 10px 0;">有关选择文件系统的更多信息</h6>
+                    <div class="content_item input min_max_code">
+                        <label>可分配大小的伤心(GB):</label>
+                        <span>500</span>
+                    </div>
+                    <div class="content_item input min_max_code">
+                        <label>配额容量(GB):</label>
+                        <input type="text" value="" id="storage_capacity"/>
+                    </div>
+                </form>
+            </div>
+            <div class="content_wrapper_foter">
+                <span>应用</span>
+                <span>取消</span>
+            </div>
+        </div>
+        <!--删除窗口raid/存储空间-->
+        <div class="disk_delet_storage file_windows" style="display: none;top:0">
+            <div class="content_wrapper">
+                <form>
+                    <h6 style="text-align: center;padding: 20px 0">是否要删除<span>存储空间1</span>？</h6>
+
+                </form>
+            </div>
+            <div class="content_wrapper_foter">
+                <span style="background: #ffc107;border: none;">删除</span>
+                <span>取消</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--控制面板-->
+<div class="file_windows">
+    <div class="file_windows_head handler">
+        <span></span>
+        <div class="file_windows_head_button">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="control">
+        <div class="control_left">
+            <button id="control_home">主页</button><input class="serch" value="搜索" onfocus="if (value =='搜索'){value =''}"onblur="if (value ==''){value='搜索'}"/>
+            <div class="control_menu">
+                <ul>
+                    <li class="control_tree_root">
+                        <div>
+                            <span>文件共享</span>
+                        </div>
+                        <div style="overflow: hidden">
+                            <ul class="control_tree">
+                                <li class="control_app">用户账号</li>
+                                <li class="control_app">用户群组</li>
+                                <li class="control_app">共享文件夹</li>
+                                <li class="control_app">文件服务</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="control_tree_root">
+                        <div>
+                            <span>连接性</span>
+                        </div>
+                        <div style="overflow: hidden">
+                            <ul class="control_tree">
+                                <li class="control_app">网络</li>
+                                <li class="control_app">外网访问</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="control_tree_root">
+                        <div>
+                            <span>系统</span>
+                        </div>
+                        <div style="overflow: hidden">
+                            <ul class="control_tree" >
+                                <li class="control_app">主题</li>
+                                <li class="control_app">硬件与电源</li>
+                                <li class="control_app">还原与更新</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="control_right">
+            <!--主页-->
+            <div id="control_home_content" class="control_panel" style="display: none">
+                <div class="control_panel_item">
+                    <div class="item_title">文件共享</div>
+                    <div class="control_app"><img src='./images/user.png' draggable="false"/><span>用户账号</span></div>
+                    <div class="control_app"><img src='./images/users.png' draggable="false"/><span>用户群组</span></div>
+                    <div class="control_app"><img src='./images/logo.png' draggable="false"/><span>共享文件夹</span></div>
+                    <div class="control_app"><img src='./images/file_server_tools.png' draggable="false"/><span>文件服务</span></div>
+                </div>
+                <div class="control_panel_item">
+                    <div class="item_title">连接性</div>
+                    <div class="control_app"><img src='./images/network.png' draggable="false"/><span>网络</span></div>
+                    <div class="control_app"><img src='./images/downloads.png' draggable="false"/><span>外网访问</span></div>
+                </div>
+                <div class="control_panel_item">
+                    <div class="item_title">系统</div>
+                    <div class="control_app"><img src='./images/theme.png' draggable="false"/><span>主题</span></div>
+                    <div class="control_app"><img src='./images/plugin.png' draggable="false"/><span>硬件与电源</span></div>
+                    <div class="control_app"><img src='./images/updater.png' draggable="false"/><span>还原与更新</span></div>
+                </div>
+            </div>
+            <!--用户账号-->
+            <div id ="control_yhzh" class="control_panel" style="display: none">
+                <div class="tab_strip">
+                    <span>用户账号</span>
+                    <span>高级设置</span>
+                    <span> </span>
+                </div>
+                <div class="tool_bar">
+                    <button class="user_tool_add">新增</button>
+                    <button class="user_tool_edit">编辑</button>
+                    <button class="user_tool_delete">删除</button>
+                </div>
+                <div class="user_title">
+                    <table id="userTable" width="100%" border="0">
+                        <tbody>
+                        <tr>
+                            <th width="100px">名称</th>
+                            <th >电子邮件</th>
+                            <th >描述</th>
+                            <th >状态</th>
+                        </tr>
+                        <tr>
+                            <td>11111111111111111111111111</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>3</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--网络-->
+            <div id ="control_wl" class="control_panel" style="display: none">
+                <div class="tab_strip">
+                    <span>常规</span>
+                    <span>网络界面</span>
+                    <span>流量控制</span>
+                    <span>静态路由</span>
+                    <span>DNS设置</span>
+                    <span> </span>
+                </div>
+                <div id ="network_cg" class="network_body">
+                    1
+                </div>
+                <div id ="network_jm" class="network_body">
+                    <div class="tool_bar">
+                        <button class="network_tool_create">新增</button>
+                        <button class="network_tool_edit">编辑</button>
+                        <button class="network_tool_delete">删除</button>
+                    </div>
+                    <div class="network_item">
+                        <div>局域网1</div>
+                        <div>已联机</div>
+                        <ul>
+                            <li>
+                                <table  width="600px" border="0">
+                                    <tbody>
+                                    <tr>
+                                        <td width="40%" style="font-weight: bold;">使用DHCP</td>
+                                        <td width="60%">是</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="40%" style="font-weight: bold;">IP地址</td>
+                                        <td width="60%">192.168.1.101</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="40%" style="font-weight: bold;">子网掩码</td>
+                                        <td width="60%">255.255.255.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="40%" style="font-weight: bold;">IPv6地址</td>
+                                        <td width="60%">192.168.1.101</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="40%" style="font-weight: bold;">网络状态</td>
+                                        <td width="60%">100Mb/s,全双工,MTU 1500</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                        </ul>
+                        <div class="item-toggle-img">
+                            <img src="./images/jstree_open.png" border="1" />
+                        </div>
+                    </div>
+
+                </div>
+                <div id ="network_llkz" class="network_body">
+                    3
+                </div>
+            </div>
+            <!--文件服务-->
+            <div id ="control_wjfw" class="control_panel" style="display: none">
+                <div class="tab_strip">
+                    <span>SMB/AFP/NFS</span>
+                    <span>FTP</span>
+                    <span>TFTP</span>
+                    <span>rsync</span>
+                    <span>高级设置</span>
+                    <span> </span>
+                </div>
+                <!--AMB/AFP/NFS-->
+                <div id ="fileserver_smb" class="fileserver">
+                    <div class="fileserver_body">
+                        <div class="item">
+                            <div class="line">SMB</div>
+                            <div class="content">
+                                <div class="content_item">
+                                    <input name="checkbox" type="checkbox" id="smb" value="checkbox" />
+                                    <label for="smb">启用smb服务</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="line">AFP</div>
+                            <div class="content">
+                                <div class="content_item">
+                                    <input name="checkbox" type="checkbox" id="afp" value="checkbox" />
+                                    <label for="afp">启用afp服务</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="line">NFS</div>
+                            <div class="content">
+                                <div class="content_item">
+                                    <input name="checkbox" type="checkbox" id="nfs" value="checkbox" />
+                                    <label for="nfs">启用nfs服务</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content_wrapper_foter">
+                        <span>确定</span>
+                        <span>取消</span>
+                    </div>
+                </div>
+                <div id ="fileserver_ftp" class="fileserver">
+                    <div class="fileserver_body">
+                        <div class="item">
+                            <div class="line">FTP/FTPS</div>
+                            <div class="content">
+                                <div class="content_item">
+                                    <input name="checkbox" type="checkbox" id="ftp" value="checkbox" />
+                                    <label for="ftp">启用ftp服务(无加密)</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content_wrapper_foter">
+                        <span>确定</span>
+                        <span>取消</span>
+                    </div>
+                </div>
+                <!--TFTP-->
+                <div id ="fileserver_tftp" class="fileserver">
+                    <div class="fileserver_body">
+                        <div class="item">
+                            <div class="line">FTP/FTPS</div>
+                            <div class="content">
+                                <div class="content_item">
+                                    <input name="checkbox" type="checkbox" id="ftp" value="checkbox" />
+                                    <label for="ftp">启用tftp服务(无加密)</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content_wrapper_foter">
+                        <span>确定</span>
+                        <span>取消</span>
+                    </div>
+                </div>
+            </div>
+            <!--用户群组-->
+            <div id ="control_yhqz" class="control_panel" style="display: none">
+                <div class="tool_bar">
+                    <button class="user_tool_add">新增</button>
+                    <button class="user_tool_edit">编辑</button>
+                    <button class="user_tool_delete">删除</button>
+                    <button class="user_tool_editgroup">编辑群组成员</button>
+                </div>
+                <table  width="100%" border="0">
+                    <tbody>
+                    <tr>
+                        <th>用户组名称</th>
+                        <th>群组说明</th>
+                    </tr>
+                    <tr>
+                        <td>default</td>
+                        <td>default</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--共享文件夹-->
+            <div id ="control_share_folders" class="control_panel" style="display: block">
+                <div class="tool_bar">
+                    <button class="user_tool_add">新增</button>
+                    <button class="user_tool_edit">编辑</button>
+                    <button class="user_tool_delete">删除</button>
+                    <button class="user_tool_editgroup">加密</button>
+                    <button class="user_tool_editgroup">动作</button>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <div class="item-title" style="height: 50px;">
+                                <dt>文件夹名称</dt>
+                                <div>存储空间1（位于RAID Group 1,Basic,btrfs）</div>
+                            </div>
+                            <div class="item_content" style="overflow: hidden">
+                                <ul class="partition_info" style="display: none">
+                                    <li>
+                                        <div>
+                                            <dl style="margin: 0">
+                                                <dt style="display: inline-block;width: 50%">描述</dt>
+                                                <dt style="display: inline-block;font-weight: 400">已停止用</dt>
+                                            </dl>
+                                            <dl style="margin: 0">
+                                                <dt style="display: inline-block;width: 50%">高级权限</dt>
+                                                <dt style="display: inline-block;font-weight: 400">已启用</dt>
+                                            </dl>
+                                            <dl style="margin: 0">
+                                                <dt style="display: inline-block;width: 50%">回收站</dt>
+                                                <dt style="display: inline-block;font-weight: 400">已启用</dt>
+                                            </dl>
+                                            <dl style="margin: 0">
+                                                <dt style="display: inline-block;width: 50%">共享文件夹配额</dt>
+                                                <dt style="display: inline-block;font-weight: 400">已停用</dt>
+                                            </dl>
+                                            <dl style="margin: 0">
+                                                <dt style="display: inline-block;width: 50%">共享文件夹大小</dt>
+                                                <dt style="display: inline-block;font-weight: 400">0.00MB</dt>
+                                            </dl>
+                                            <dl style="margin: 0">
+                                                <dt style="display: inline-block;width: 50%">文件压缩</dt>
+                                                <dt style="display: inline-block;font-weight: 400">已停用</dt>
+                                            </dl>
+                                            <dl style="margin: 0">
+                                                <dt style="display: inline-block;width: 50%">数据完整性保护</dt>
+                                                <dt style="display: inline-block;font-weight: 400">已停用</dt>
+                                            </dl>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--弹出框的div-->
+    <!--编辑-->
+    <div class="network_edit control_edit file_windows" style="display: none;top:0">
+        <div class="file_windows_head handler">
+            <span>编辑</span>
+        </div>
+        <div class="network_edit_content">
+            <div class="tab_strip">
+                <span>IPv4</span>
+                <span>IPv6</span>
+                <span>802.1X</span>
+                <span> </span>
+            </div>
+            <!--ipv4-->
+            <div id ="network_edit_ipv4" class="content_wrapper">
+                <form>
+                    <div class="content_item">
+                        <input type="radio" name="sex" id="active" checked/>
+                        <label for="active">自动获得网络设置(DHCP)</label>
+                    </div>
+                    <div class="content_item">
+                        <input type="radio" name="sex" id="passive" />
+                        <label for="passive">手动设置网络设置</label>
+                    </div>
+                    <div class="content_item input">
+                        <label for="ip">IP地址</label>
+                        <input type="text" name="sex" id="ip" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="mask">子网掩码</label>
+                        <input type="text" name="sex" id="mask" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="gateway">网关</label>
+                        <input type="text" name="sex" id="gateway" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="dns_server">DNS Server</label>
+                        <input type="text" name="sex" id="dns_server" />
+                    </div>
+                    <div class="content_item">
+                        <input name="checkbox" type="checkbox" id="default_gateway" value="checkbox" />
+                        <label for="default_gateway">设为默认网关</label>
+                    </div>
+                    <div class="content_item">
+                        <input name="checkbox" type="checkbox" id="default_vlan" value="checkbox" />
+                        <label for="default_vlan">启用VLAN(802.1Q)</label>
+                    </div>
+                    <div class="content_item input">
+                        <label for="default_vlanid">VLAN ID:</label>
+                        <input name="checkbox" type="text" id="default_vlanid" value="checkbox" />
+                    </div>
+                </form>
+            </div>
+            <!--ipv6-->
+            <div id ="network_edit_ipv6" class="content_wrapper">
+                <form>
+                    <div class="content_item input">
+                        <label for="ip">IPv6s设置</label>
+                        <input type="text" name="sex" id="ip" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="mask">IPv6地址</label>
+                        <input type="text" name="sex" id="mask" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="gateway">Prefix长度</label>
+                        <input type="text" name="sex" id="gateway" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="dns_server">默认网关(gateway)</label>
+                        <input type="text" name="sex" id="dns_server" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="dns_server">首选DNS服务器</label>
+                        <input type="text" name="sex" id="dns_server" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="content_wrapper_foter">
+            <span>确定</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <!--用户编辑-->
+    <div class="user_edit control_edit file_windows" style="display: none;top:0px">
+        <div class="file_windows_head handler">
+            <span>编辑</span>
+        </div>
+        <div class="user_edit_content">
+            <div class="tab_strip">
+                <span>信息</span>
+                <span>用户群组</span>
+                <span>权限</span>
+                <span>空间配额</span>
+                <span>速度限制</span>
+                <span> </span>
+            </div>
+            <div id = "user_edit_info" class="content_wrapper" style="display: block">
+                <form>
+                    <div class="content_item input">
+                        <label for="user_name">名称*</label>
+                        <input type="text" name="sex" id="user_name" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="user_desc">描述</label>
+                        <input type="text" name="sex" id="user_desc" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="user_email">电子邮件</label>
+                        <input type="text" name="sex" id="user_email" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="user_password">密码*</label>
+                        <input type="text" name="sex" id="user_password" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="user_again_password">确认密码*</label>
+                        <input type="text" name="sex" id="user_again_password" />
+                    </div>
+                    <div class="content_item">
+                        <input type="checkbox" name="sex" id="alter_user_pass" checked/>
+                        <label for="alter_user_pass">不允许此用户修改密码</label>
+                    </div>
+                </form>
+            </div>
+            <div id ="user_edit_usergroup" class="content_wrapper" style="display: none">
+                <table  width="600px" border="0">
+                    <tbody>
+                    <tr>
+                        <th>用户群组名称</th>
+                        <th>群组说明</th>
+                        <th>加入</th>
+                    </tr>
+                    <tr>
+                        <td>users</td>
+                        <td>default</td>
+                        <td><input type="checkbox"/></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id ="user_edit_permission" class="content_wrapper" style="display: none">
+                <table  width="100%" border="0">
+                    <tbody>
+                    <tr>
+                        <th>名称</th>
+                        <th>预览</th>
+                        <th>群组权限</th>
+                        <th>禁止访问</th>
+                        <th>可读写</th>
+                        <th>只读</th>
+                        <th>自定义</th>
+                    </tr>
+                    <tr>
+                        <td>users</td>
+                        <td>default</td>
+                        <td>default</td>
+                        <td><input type="checkbox"/></td>
+                        <td><input type="checkbox"/></td>
+                        <td><input type="checkbox"/></td>
+                        <td><input type="checkbox"/></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id ="user_edit_quota" class="content_wrapper" style="display: none">
+                <table  width="100%" border="0">
+                    <tbody>
+                    <tr>
+                        <th>服务</th>
+                        <th>结果</th>
+                        <th>上传限制(KB/s)</th>
+                        <th>下载限制(KB/s)</th>
+                        <th>速度限制</th>
+                    </tr>
+                    <tr>
+                        <td>users</td>
+                        <td>default</td>
+                        <td>default</td>
+                        <td>default</td>
+                        <td>default</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id ="user_edit_speed" class="content_wrapper" style="display: none">
+                <table  width="100%" border="0">
+                    <tbody>
+                    <tr>
+                        <th>存储空间/共享文件夹</th>
+                        <th>描述</th>
+                        <th>使用容量</th>
+                        <th>有效配额</th>
+                        <th>群组配额</th>
+                        <th>空间配额</th>
+                        <th>单位</th>
+                    </tr>
+                    <tr>
+                        <td>users</td>
+                        <td>default</td>
+                        <td>default</td>
+                        <td>default</td>
+                        <td>default</td>
+                        <td>default</td>
+                        <td>default</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="content_wrapper_foter">
+            <span>确定</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <!--添加用户-->
+    <div class="user_edit control_edit file_windows" style="display: none;top:0px">
+        <div class="file_windows_head handler">
+            <span>添加用户</span>
+        </div>
+        <div class="user_edit_content">
+            <div class="tab_strip">
+                <span>信息</span>
+                <span> </span>
+            </div>
+            <div id = "user_add_info" class="content_wrapper" style="display: block">
+                <form>
+                    <div class="content_item input">
+                        <label for="add_user_name">名称*</label>
+                        <input type="text" name="sex" id="add_user_name" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="add_user_desc">描述</label>
+                        <input type="text" name="sex" id="add_user_desc" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="add_user_email">电子邮件</label>
+                        <input type="text" name="sex" id="add_user_email" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="add_user_password">密码*</label>
+                        <input type="text" name="sex" id="add_user_password" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="add_user_again_password">确认密码*</label>
+                        <input type="text" name="sex" id="add_user_again_password" />
+                    </div>
+                    <div class="content_item input">
+                        <label for="add_user_group">用户所属的组:</label>
+                        <select id="add_user_group" class="add_user_group" name="add_user_group">
+                            <option value="1">root</option>
+                            <option value="1">nfsnobody 1</option>
+                            <option value="2" selected="selected">admin</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="content_wrapper_foter">
+            <span>确定</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <!--删除用户-->
+    <div class="delet_user file_windows" style="display: none;top:0">
+        <div class="content_wrapper">
+            <form>
+                <h6 style="text-align: center;padding: 20px 0">是否要删除用户<span>root</span>？</h6>
+
+            </form>
+        </div>
+        <div class="content_wrapper_foter">
+            <span style="background: #ffc107;border: none;">删除</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <!--添加用户组-->
+    <div class="add_usergroup file_windows" style="display: none;top:0px">
+        <div  style="text-align: center;" class="file_windows_head handler" >
+            <span>添加用户组</span>
+        </div>
+        <div class="add_usergroup_content">
+            <form>
+                <div class="content_item input">
+                    <label for="usergroup_name">用户群组*:</label>
+                    <input type="text" name="sex" id="usergroup_name" />
+                </div>
+                <div class="content_item input">
+                    <label for="usergroup_desc">群组说明:</label>
+                    <input type="text" name="sex" id="usergroup_desc" />
+                </div>
+            </form>
+        </div>
+        <div class="content_wrapper_foter">
+            <span>确定</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <!--编辑用户组-->
+    <div class="edit_usergroup file_windows" style="display: none;top:0px">
+        <div  style="text-align: center;" class="file_windows_head handler" >
+            <span>编辑用户组</span>
+        </div>
+        <div class="add_usergroup_content">
+            <form>
+                <div class="content_item input">
+                    <label for="usergroup_name">用户群组*:</label>
+                    <input type="text" name="sex" />
+                </div>
+                <div class="content_item input">
+                    <label for="usergroup_desc">群组说明:</label>
+                    <input type="text" name="sex" />
+                </div>
+            </form>
+        </div>
+        <div class="content_wrapper_foter">
+            <span>确定</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <!--删除窗口raid/存储空间-->
+    <div class="delet_group file_windows" style="display: none;top:0">
+        <div class="content_wrapper">
+            <form>
+                <h6 style="text-align: center;padding: 20px 0">是否要删除用户组<span>root</span>？</h6>
+
+            </form>
+        </div>
+        <div class="content_wrapper_foter">
+            <span style="background: #ffc107;border: none;">删除</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <!--添加共享文件夹-->
+    <div class="create_share_file_directory file_windows" style="display: none;top:0">
+        <div  style="text-align: center;" class="file_windows_head handler" >
+            <span>新增共享文件夹</span>
+        </div>
+        <div class="content_item input">
+            <label for="file_directory">文件夹名称:</label>
+            <input type="text" id="file_directory" />
+        </div>
+        <div >
+            <label for="raid_group">所在位置:</label>
+            <select id="raid_group" class="raid_group">
+                <option value="1">RAID Group1</option>
+            </select>
+        </div>
+        <div class="content_wrapper_foter">
+            <span style="border: none;">确定</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <!--删除共享文件夹-->
+    <div class="delet_share_file_directory file_windows" style="display: none;top:0">
+        <div class="content_wrapper">
+            <form>
+                <h6 style="text-align: center;padding: 20px 0">是否要删除共享文件夹<span>root</span>？</h6>
+
+            </form>
+        </div>
+        <div class="content_wrapper_foter">
+            <span style="background: #ffc107;border: none;">删除</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <!--应用sam等服务-->
+    <div class="set_smb_service file_windows" style="display: none;top:0">
+        <div class="content_wrapper">
+            <form>
+                <h6 style="text-align: center;padding: 20px 0">是否要应用？</h6>
+
+            </form>
+        </div>
+        <div class="content_wrapper_foter">
+            <span style="background: #ffc107;border: none;">删除</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <!--应用ftp等服务-->
+    <div class="set_ftp_service file_windows" style="display: none;top:0">
+        <div class="content_wrapper">
+            <form>
+                <h6 style="text-align: center;padding: 20px 0">是否要应用ftp<span>root</span>？</h6>
+            </form>
+        </div>
+        <div class="content_wrapper_foter">
+            <span style="background: #ffc107;border: none;">删除</span>
+            <span>取消</span>
+        </div>
+    </div>
+</div>
+<!--IPFS-->
+<div class="file_windows" style="display:none">
+    <div class="file_windows_head handler">
+        <span></span>
+        <div class="file_windows_head_button">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="ipfs">
+        <div class="container user_login" style="display:none;position: relative;width: 40%;text-align: center;margin-top: 10%">
+            <div class="row">
+                <div class="col-md-12 col-md-offset-4">
+                    <div class="login-panel panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">远程访问登录</h3>
+                        </div>
+                        <div class="panel-body">
+                            <form role="form" method="POST" action="http://localhost/ipfs/public/index.php/index/index/login">
+                                <input type="hidden" value="<?= Yii::$app->getRequest()->getCsrfToken() ?>" name="_csrf" />
+                                <fieldset>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="username" id="username" name="username" type="username" autofocus>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Password" id="password" name="password" type="password">
+                                    </div>
+                                    <input type="submit" class="btn btn-lg btn-success btn-block login-success" value="登录" />
+                                    <span>没有账号？</span><a href="#" class="login-reg">注册</a>
+                                </fieldset>
+                            </form>
+                            <div style="color:red" data-bind="html:errmsg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container user_register" style="display:block;position: relative;width: 40%;text-align: center;">
+            <div class="row">
+                <div class="col-md-12 col-md-offset-4">
+                    <div class="login-panel panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">远程访问注册</h3>
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <input type="hidden" value="<?= Yii::$app->getRequest()->getCsrfToken() ?>" name="_csrf" />
+                                <fieldset>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="username" name="username" type="username" autofocus>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Password" name="password" type="password">
+                                    </div>
+                                    <input type="submit" class="btn btn-lg btn-success btn-block register-success" value="注册" />
+                                    <span>已有账号？</span><a href="#" class="register-log">登录</a>
+                                </fieldset>
+                            </form>
+                            <div style="color:red" data-bind="html:errmsg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container user_content" style="display:block;position: relative;width: 100%;text-align: center;margin-top: 10%">
+            <div class="row">
+                <a href="#" class="content_out"><-退出</a>
+                <div class="col-md-12 col-md-offset-4">
+                    <h2>远程访问地址</h2><a href="">asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd</a></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
